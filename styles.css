@@ -1,0 +1,49 @@
+@import url(./css/root.css);
+@import url(./css/basics.css);
+@import url(./css/button.css);
+@import url(./css/card-element.css);
+/*-------------------- tabs menu for all the elements------------------------------------------- */
+.active-tabs{
+    color: var(--343A40);
+    border-bottom: var(--212529) solid 2.5px;
+    background-color: var(--CED4DA);
+}
+.tabs-div{
+    background-color: var(--6C757D);
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    top:0;
+    color: var(--CED4DA);
+}
+.tabs-div-ul{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding:0;
+    padding-bottom: 3px;
+    margin: 0;
+}
+.tabs-div-ul-li{
+    list-style: none;
+    cursor: pointer;
+    padding: .5rem;
+}
+.tabs-div-ul-li:hover{
+    color: var(--343A40);
+    border-bottom: var(--6C757D) solid 1.5px;
+    background-color: var(--CED4DA);
+}
+.tabs-div-ul-li+.tabs-div-ul-li{
+    padding-left: .6rem;  
+}
+.link-style-none{
+    text-decoration: none;
+    color: var(--CED4DA);
+}
+.link-style-none:hover{
+    color: var(--343A40);
+    /* border-bottom: var(--6C757D) solid 1.5px; */
+    background-color: var(--CED4DA);
+}

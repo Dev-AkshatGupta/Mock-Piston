@@ -1,0 +1,30 @@
+@import url(./root.css);
+
+div{
+    margin:.5rem
+}
+.avatar{
+    width: 3rem;
+    height: 3rem;
+    /* border: solid .5px red; */
+    border-radius: 50%;
+}
+.avatar>img{
+    border-radius: 50%;
+}
+.avatar.sm{
+    width: 2rem;
+    height: 2rem;
+}
+.avatar.med{
+    width: 3rem;
+    height: 3rem;
+}
+
+.avatar.lar{
+    width: 4rem;
+    height: 4rem;
+}
+.avatar.square>img{
+    border-radius: 10%;
+}

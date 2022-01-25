@@ -1,0 +1,81 @@
+@import url(./root.css);
+ /* h1{
+color: var(--error-red);
+} */
+.card-element .border-radius {
+    border-radius: 4px;
+}
+.card-element button{
+    background-color:var(--white);
+}
+.card-element {
+    font-family: 'roboto', sans-serif;
+    width: 350px;
+    background-color: var(--white);
+    border-radius: 4px;
+}
+.greying{
+    color: var(--div-background);
+}
+
+/* card element main content */
+.card-element__main {
+    display: flex;
+
+}
+
+.card__image-container {
+    width: 110px;
+    height: 110px;
+
+}
+
+.card__image-container>img {
+    border-radius: 4px 4px 0 0;
+}
+
+.card-element__main-text {
+    margin-left: 10px;
+
+}
+
+.card-element__main-text>p {
+    color: var(--div-background);
+}
+
+.card-element__bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.card-button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.i {
+    border-radius: 50%;
+}
+
+.i-x {
+    border-radius: 50%;
+    padding: 1px 15px;
+}
+
+
+.card-button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.i {
+    border-radius: 50%;
+}
+
+.i-x {
+    border-radius: 50%;
+    padding: 1px 15px;
+}  
