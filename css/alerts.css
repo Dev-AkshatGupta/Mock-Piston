@@ -1,0 +1,40 @@
+@import url(./root.css);
+
+/* div{margin-top: 2rem;} */
+.alert{
+    /* display: inline-block; */
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: var(--212529);
+    color: var(--pure-white);
+    border-radius: 4px;
+    width: 50vw;
+    word-spacing:6px;
+}
+.alert.error{
+background-color: var(--error-red);
+}
+.alert.success{
+    background-color: var(--success-green);
+}
+.alert.warning{
+background-color: var(--warn-yellow);
+}
+.alert.outline{
+    color:var(--212529);
+    background-color: var(--pure-white);
+    outline: var(--212529) solid;
+    font-weight:500;
+}
+.alert.error.outline{
+    color:var(--error-red);
+    outline: var(--error-red) solid;
+}
+.alert.success.outline{
+    color:var(--success-green);
+    outline: var(--success-green) solid;
+}
+.alert.warning.outline{
+    color:var(--warn-yellow);
+    outline: var(--warn-yellow) solid;
+}

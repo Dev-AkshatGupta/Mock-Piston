@@ -7,8 +7,8 @@
 /* ---default button */
 .btn{
 border: none;
-background-color: var(--ADB5BD);
-color: var(--F8F9FA);
+background-color: var(--6C757D);
+color: var(--pure-white);
 padding: 1.5rem 2rem;
 cursor: pointer;
 font-weight: bold;
@@ -46,14 +46,14 @@ transition: all .5s ease-in-out;
 }
 /* BUTTON OUTLINE */
 .btn.outline{
-    color: var(--ADB5BD) ;
-    border: solid var(--ADB5BD) 2px;
+    color: var(--6C757D) ;
+    border: solid var(--6C757D) 2px;
     background-color:var(--pure-white);
     border-radius: 4px;
     padding: 1rem 2rem;
 }
 .btn.outline:hover{
-background-color: var(--ADB5BD);
+background-color: var(--6C757D);
 color: var(--pure-white);
 }
 .btn.outline-pri{
@@ -94,7 +94,7 @@ color: var(--pure-white);
     padding: 1.5rem;
     font-size: 4rem;
     border: none;
-    color:var(--CED4DA);
+    color:var(--6C757D);
     transition: all .5s ease-in-out;
     background-color: var(--pure-white);
 }
@@ -103,7 +103,7 @@ color: var(--pure-white);
     padding: 1.5rem;
     font-size: 3rem;
     border: none;
-    color:var(--CED4DA);
+    color:var(--6C757D);
     transition: all .5s ease-in-out;
     background-color: var(--pure-white);
 }
@@ -111,7 +111,7 @@ color: var(--pure-white);
     padding: 1.5rem;
     font-size: 1.5rem;
     border: none;
-    color:var(--CED4DA);
+    color:var(--6C757D);
     transition: all .5s ease-in-out;
     background-color: var(--pure-white);
 }
@@ -130,17 +130,28 @@ color: var(--pure-white);
     display: block;
 }
 /* LINK BUTTONS */
-.link{
 
-}
 .link-btn{
     text-decoration: none;
-    background-color: var(--ADB5BD);
-    color: var(--F8F9FA);
+    color:var(----212529);
     padding: 1.5rem 2rem;
     cursor: pointer;
     font-weight: bold;
     font-size: 1.5rem;
     transition: all .5s ease-in-out;
     border-radius: 4px;
+    text-decoration: underline transparent solid ;
+}
+.link{
+    text-decoration: underline var(--343A40) solid ;
+    color:var(----212529);
+    padding: 1.5rem 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 4px;
+
+}
+.link-btn:hover{
+    text-decoration-color:var(--343A40)
 }
