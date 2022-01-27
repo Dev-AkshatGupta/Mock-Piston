@@ -6,15 +6,16 @@
     --CED4DA: #CED4DA;
     --ADB5BD: #ADB5BD;
     --6C757D: #6C757D;
-    --495057: #495057;
+    
     --343A40: #343A40;
-    --212529: #212529;
+    --pure-black: #212529;
     --pure-white:#ffffff;
     --error-red:#d90429;
     --error-red-dark:#9d0208;
     --success-green:#2b9348;
     --success-green-dark:#386641;
     --warn-yellow:#fcca46;
+    --495057: #495057;
 }
 *,
 *::after,

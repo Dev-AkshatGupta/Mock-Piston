@@ -17,7 +17,7 @@ transition: all .5s ease-in-out;
 /* PRIMARY BUTTON */
 .btn-pri{
     background-color: var(--495057);
-    color: var(--E9ECEF);
+    color: var(--pure-white);
 }
 .btn-pri:hover{
     background: var(--6C757D);
