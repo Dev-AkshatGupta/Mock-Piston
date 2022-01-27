@@ -1,29 +1,26 @@
 @import url(./root.css);
 
-/* div{
-    margin:.5rem
-} */
+
 .avatar{
-    width: 3rem;
-    height: 3rem;
-    /* border: solid .5px red; */
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
 }
 .avatar>img{
     border-radius: 50%;
 }
 .avatar.sm{
-    width: 2rem;
-    height: 2rem;
-}
-.avatar.med{
     width: 3rem;
     height: 3rem;
 }
+.avatar.med{
+    width: 5rem;
+    height: 5rem;
+}
 
-.avatar.lag{
-    width: 4rem;
-    height: 4rem;
+.avatar.larg{
+    width: 9rem;
+    height: 9rem;
 }
 .avatar.square>img{
     border-radius: 10%;
