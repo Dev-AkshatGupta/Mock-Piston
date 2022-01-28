@@ -1,21 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Oswald&family=Pacifico&display=swap');
 :root {
-    --F8F9FA: #F8F9FA;
-    --E9ECEF: #E9ECEF;
-    --DEE2E6: #DEE2E6;
-    --CED4DA: #CED4DA;
-    --ADB5BD: #ADB5BD;
-    --6C757D: #6C757D;
-    
-    --343A40: #343A40;
-    --pure-black: #212529;
-    --pure-white:#ffffff;
-    --error-red:#d90429;
-    --error-red-dark:#9d0208;
-    --success-green:#2b9348;
-    --success-green-dark:#386641;
-    --warn-yellow:#fcca46;
+    --ICONS-ORANGE:#fab75f;
+    --PURE-BLACK: #212529;
+   --PURE-WHITE:#ffffff;
+    --ERROR-RED:#d90429;
+    --ERROR-RED-DARK:#9d0208;
+    --SUCCESS-GREEN:#2b9348;
+    --SUCCESS-GREEN-DARK:#386641;
+    --WARN-YELLOW:#fcca46;
     --495057: #495057;
+    --6C757D: #6C757D;
+    --DEE2E6: #DEE2E6;
 }
 *,
 *::after,
@@ -56,3 +51,7 @@ h5{
 }
 h6{
     font-size:1.072rem;}
+
+
+
+    

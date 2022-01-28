@@ -12,13 +12,13 @@
     word-spacing:6px;
 }
 .alert.error{
-background-color: var(--error-red);
+background-color: var(--ERROR-RED);
 }
 .alert.success{
-    background-color: var(--success-green);
+    background-color: var(--SUCCESS-GREEN);
 }
 .alert.warning{
-background-color: var(--warn-yellow);
+background-color: var(--WARN-YELLOW);
 }
 .alert.outline{
     color:var(--212529);
@@ -27,14 +27,14 @@ background-color: var(--warn-yellow);
     font-weight:500;
 }
 .alert.error.outline{
-    color:var(--error-red);
-    outline: var(--error-red) solid;
+    color:var(--ERROR-RED);
+    outline: var(--ERROR-RED) solid;
 }
 .alert.success.outline{
-    color:var(--success-green);
-    outline: var(--success-green) solid;
+    color:var(--SUCCESS-GREEN);
+    outline: var(--SUCCESS-GREEN) solid;
 }
 .alert.warning.outline{
-    color:var(--warn-yellow);
-    outline: var(--warn-yellow) solid;
+    color:var(--WARN-YELLOW);
+    outline: var(--WARN-YELLOW) solid;
 }

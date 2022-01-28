@@ -16,7 +16,7 @@
     border: 2px solid var(--pure-white);
 }
 .online{
-    background-color: var(--success-green);
+    background-color: var(--SUCCESS-GREEN);
 }
 .offline{
     background-color: var(--495057);
@@ -31,5 +31,5 @@
     text-align: center;
     border: 2px solid var(--pure-white);
     color: var(--pure-white);
-    background-color: var(--pure-black);
+    background-color: var(--PURE-BLACK);
 }
