@@ -1,18 +1,11 @@
-@import url(./root.css);
-
 body {
     background-color: var(--DEE2E6);
 }
 
-.seperator-div {
-    margin: 2rem;
-    background-color: var(--DEE2E6);
-}
 
-.line-break-div {
-    color: var(--DEE2E6);
-    height: 1px;
-    width: 100%;
+/* useless CSS prior to this */
+.card-shadow {
+    box-shadow: 0 4px 8px 0 var(--PURE-BLACK), 0 6px 20px 0 var(--PURE-BLACK);
 }
 
 .card-element-horizontal {
@@ -62,24 +55,92 @@ body {
     font-size: 1.6rem;
     border: none;
     border-radius: 10%;
-
 }
-
 /* vertical-card */
-/* .card-vertical {
-    border: solid;
-    width: 30rem;
-} */
-
-.card-vertical-upper-text{
-margin-left: 1rem;
-margin-top: .5rem;
-}
-.card-vertical-img-cont{
-    width:35rem;
-    height:19.6;
+.card-vertical {
+    background-color: var(--PURE-WHITE);
+    width: 35rem;
 }
 
+.card-vertical-upper-text {
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
 
+.card-vertical-img-cont {
+    width: 35rem;
+    height: 19.6;
+}
 
+.card-vertical-text {
+    margin: .5rem .3rem;
+}
 
+/* Overlay text card  */
+.card-vertical-overlay-text {
+    background-image: url(../assets/mustang1960.jpg);
+    background-size: cover;
+    width: 35rem;
+    height: 19.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.card-vertical-overlay-text>h1,
+.card-vertical-overlay-text>p {
+    color: var(--PURE-WHITE);
+    margin-left: 1rem;
+}
+
+/* Text overlay image with dismiss */
+.card-vertical-overlay-text__dismiss {
+    background-image: url(../assets/mustang1960.jpg);
+    background-size: cover;
+    width: 35rem;
+    height: 19.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-right-end {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.dismiss {
+    color: var(--ICONS-ORANGE);
+    font-size: 2rem;
+    margin: 1rem 2rem;
+
+}
+
+.bottom-left-corner-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: var(--PURE-WHITE);
+}
+
+.bottom-left-corner-text>h1 {
+    margin-bottom: 0;
+    color: var(--PURE-WHITE);
+}
+.image-overlay-badge{
+    color: var(--PURE-WHITE);
+    background:var(--ICONS-ORANGE);
+    padding: .3rem .6rem;
+    margin-right: 18rem;
+}
+.bottom-top-left-corner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bottom-top-left-corner-text>h1{
+    color: var(--PURE-WHITE);
+    margin-bottom: 0;
+}

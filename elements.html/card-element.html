@@ -15,15 +15,16 @@
     <div class="seperator-div">
         <div class="card-element-horizontal">
             <main class="card-element__main">
-                <div class="card__image-container"><img src="../assets/mustang-1976.jpg"
-                        alt="A beautiful scenic image"></div>
+                <div class="card__image-container"><img src="./components/assets/mustang1960.jpg"
+                        alt="A beautiful scenic image">
+                </div>
                 <div class="card-element__main-text">
                     <h2>Our Mustang</h2>
                     <h4>by kurt wagner</h4>
                 </div>
             </main>
             <div class="line-break-div"></div>
-        <!-- Common in many cards -->
+            <!-- Common in many cards -->
             <div class="card-element__bottom">
                 <button class="card-button "> <span>Read</span></button>
                 <button class="card-button"><span>Bookmark</span></button>
@@ -34,18 +35,126 @@
         </div>
     </div>
     <div style="margin: 50px;">
-    <div class="card-vertical smooth-square-radius">
-        <div class="card-vertical-upper-text">
-            <h1 class="card-heading">Mustang Muscles</h1>
-            <p class="sub-text">this is power</p>
+        <div class="card-vertical smooth-square-radius">
+            <div class="card-vertical-upper-text">
+                <h1 class="card-heading">Mustang Muscles</h1>
+                <p class="sub-text">this is power</p>
+            </div>
+            <div class="card-vertical-img-cont">
+                <img src="./components/assets/mustang1960.jpg" alt="A mustang">
+            </div>
+            <div class="card-vertical-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sequi quia magnam, ex animi explicabo
+                consequu Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, aliquam? Maxime id,
+                exercitationem expedita quasi praesentium explicabo laboriosam sit quia, possimus nostrum reprehenderit
+                iure deleniti tempore accusantium odit aliquid unde?
+            </div>
+            <div class="card-element__bottom">
+                <button class="card-button "><i class="far fa-heart"></i></button>
+                <button class="card-button "><i class="fas fa-share-alt"></i></button>
+                <button class="card-button "><i class="fas fa-ellipsis-v"></i></button>
+            </div>
         </div>
-        <div class="card-vertical-img-cont">
-            <img src="../assets/mustang-1976.jpg" alt="A mustang">
+    </div>
+
+    <h1>only text card</h1>
+    <div style="margin: 50px;">
+        <div class="card-vertical smooth-square-radius">
+            <div class="card-vertical-upper-text">
+                <h1 class="card-heading">Mustang Muscles</h1>
+                <p class="sub-text">this is power</p>
+                <div class="card-vertical-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sequi quia magnam, ex animi explicabo
+                    consequu Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, aliquam? Maxime id,
+                    exercitationem expedita quasi praesentium explicabo laboriosam sit quia, possimus nostrum
+                    reprehenderit
+                    iure deleniti tempore accusantium odit aliquid unde?
+                </div>
+                <div class="card-element__bottom">
+                    <button class="card-button "><i class="far fa-thumbs-up"></i></button>
+                    <button class="card-button "><i class="fas fa-share"></i></button>
+                    <button class="card-button "><i class="far fa-bell"></i></button>
+                </div>
+            </div>
         </div>
 
+        <h1>text-overlay- card</h1>
 
-    </div>
-    </div>
+        <div style="margin: 50px;">
+            <div class="card-vertical smooth-square-radius">
+                <div class="card-vertical-overlay-text">
+                    <h1 class="card-heading">Mustang Muscles</h1>
+                    <p class="sub-text">this is power</p>
+                </div>
+                <div class="card-vertical-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sequi quia magnam, ex animi
+                    explicabo
+                    consequu Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, aliquam? Maxime
+                    id,
+                    exercitationem expedita quasi praesentium explicabo laboriosam sit quia, possimus nostrum
+                    reprehenderit
+                    iure deleniti tempore accusantium odit aliquid unde?
+                </div>
+                <div class="card-element__bottom">
+                    <button class="card-button "><i class="far fa-thumbs-up"></i></button>
+                    <button class="card-button "><i class="fas fa-share"></i></button>
+                    <button class="card-button "><i class="far fa-bell"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <h2>card with dismiss and shadow</h2>
+        <div style="margin: 50px;">
+            <div class="card-vertical smooth-square-radius card-shadow">
+                <div class="card-vertical-overlay-text__dismiss">
+
+                    <div class="bottom-left-corner-text">
+                        <h1 class="card-heading">Mustang Muscles</h1>
+                    </div>
+                    <div class="top-right-end"><i class="fas fa-times dismiss"></i></div>
+                </div>
+                <div class="card-vertical-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sequi quia magnam, ex animi
+                    explicabo
+                    consequu Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, aliquam? Maxime
+                    id,
+                    exercitationem expedita quasi praesentium explicabo laboriosam sit quia, possimus nostrum
+                    reprehenderit
+                    iure deleniti tempore accusantium odit aliquid unde?
+                </div>
+                <div class="card-element__bottom">
+                    <button class="card-button "><i class="far fa-thumbs-up"></i></button>
+                    <button class="card-button "><i class="fas fa-share"></i></button>
+                    <button class="card-button "><i class="far fa-bell"></i></button>
+                </div>
+            </div>
+        </div>
+        <h2>card with dismiss and badge and shadow</h2>
+       <div class="card-vertical smooth-square-radius card-shadow">
+                <div class="card-vertical-overlay-text__dismiss">
+
+                    <div class="bottom-top-left-corner-text">
+                       <span class="image-overlay-badge">NEW</span>
+                        <h1 class="card-heading">Mustang Muscles</h1>
+                    </div>
+                    <div class="top-right-end"><i class="fas fa-times dismiss"></i></div>
+                </div>
+                <div class="card-vertical-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sequi quia magnam, ex animi
+                    explicabo
+                    consequu Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, aliquam? Maxime
+                    id,
+                    exercitationem expedita quasi praesentium explicabo laboriosam sit quia, possimus nostrum
+                    reprehenderit
+                    iure deleniti tempore accusantium odit aliquid unde?
+                </div>
+                <div class="card-element__bottom">
+                    <button class="card-button "><i class="far fa-thumbs-up"></i></button>
+                    <button class="card-button "><i class="fas fa-share"></i></button>
+                    <button class="card-button "><i class="far fa-bell"></i></button>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
 
