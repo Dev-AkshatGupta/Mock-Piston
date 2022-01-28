@@ -7,6 +7,11 @@ body{
 margin: 2rem;
 background-color: var(--DEE2E6);
 }
+.line-break-div{
+color: var(--DEE2E6);
+height: 1px;
+width: 100%;
+}
 .card-element-horizontal{
     width: 35rem;
     background-color: var(--PURE-WHITE);
@@ -29,21 +34,20 @@ background-color: var(--DEE2E6);
 }
 
 .card__image-container>img {
-    border-radius: 4px 4px 0 0;
+    border-radius: px4px 4px 0 0;
 }
 
 .card-element__main-text {
-    margin-left: 10px;
+    margin-left: 1rem;
 
 }
 
-.card-element__main-text>p {
-    color: var(--);
-}
+
 /* card element bottom */
 .card-element__bottom {
     display: flex;
     justify-content: space-evenly;
+    border-top: var(--6C757D) solid 1px;
 }
 
 
@@ -57,3 +61,8 @@ background-color: var(--DEE2E6);
     
 }
 
+/* vertical-card */
+.card-vertical{
+    border: solid;
+width: 30rem;
+}

@@ -13,7 +13,7 @@
     height:15px;
     right: 0px;
     bottom: 0px;
-    border: 2px solid var(--pure-white);
+    border: 2px solid var(--PURE-WHITE);
 }
 .online{
     background-color: var(--SUCCESS-GREEN);
@@ -22,14 +22,14 @@
     background-color: var(--495057);
 }
 .badge{
-    font-size: 2rem;
-    width:30px;
+    font-size: 1.5rem;
+    width:3rem;
     border-radius: 50%;
-    height:30px;
+    height:3rem;
     right: -8px;
     top: -5px;
     text-align: center;
-    border: 2px solid var(--pure-white);
-    color: var(--pure-white);
+    border: 2px solid var(--PURE-WHITE);
+    color: var(--PURE-WHITE);
     background-color: var(--PURE-BLACK);
 }

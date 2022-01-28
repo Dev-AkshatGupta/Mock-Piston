@@ -2,7 +2,7 @@
 :root {
     --ICONS-ORANGE:#fab75f;
     --PURE-BLACK: #212529;
-   --PURE-WHITE:#ffffff;
+    --PURE-WHITE:#ffffff;
     --ERROR-RED:#d90429;
     --ERROR-RED-DARK:#9d0208;
     --SUCCESS-GREEN:#2b9348;
@@ -53,5 +53,19 @@ h6{
     font-size:1.072rem;}
 
 
-
-    
+/* General utility classes */
+.circle-border-radius{
+    border-radius: 50%;
+}
+.smooth-square-radius{
+    border-radius: 4px;
+}
+.sub-text{
+    font-size:1.6rem;
+    color: var(--6C757D);
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
