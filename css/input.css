@@ -1,0 +1,51 @@
+.form {
+    border: solid var(--6C757D);
+    border-radius: 1rem;
+    max-width: 30rem;
+    padding: 2rem;
+}
+
+.form-input {
+    color: var(--PURE-BLACK);
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    width: 90%;
+    border: var(--PURE-BLACK) 1px solid;
+}
+
+.form-btn {
+    width: 50%;
+    padding: 1rem 1rem;
+    margin: 1rem;
+}
+
+.form-input-error {
+    border: var(--ERROR-RED-DARK) solid 1px;
+}
+
+.error-message {
+    color: var(--ERROR-RED-DARK);
+}
+
+/* text-area styling */
+.text-area {
+    padding: 1rem;
+    max-width: 30rem;
+}
+
+.text-area>textarea {
+    color: var(--6C757D);
+    border: var(--ICONS-ORANGE) solid 1.5px;
+}
+
+.text-area>.btn {
+    width: 50%;
+    padding: 1rem 1rem;
+    margin: 1rem;
+}
+
+
+

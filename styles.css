@@ -4,6 +4,7 @@
 @import url(./css/card-element.css);
 @import url(./css/alerts.css);
 @import url(./css/Badge.css);
+@import url(./css/input.css);
 /*-------------------- tabs menu for all the elements------------------------------------------- */
 .active-tabs{
     color: var(--343A40);

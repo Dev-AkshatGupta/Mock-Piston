@@ -8,6 +8,34 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="spacing-dividing">
+        <h1>Form Inputs</h1>
+        <form class="form flex-column-center card-shadow">
+            <input type="email" name="email-id" class="form-input" placeholder="Enter Your Email">
+            <input type="password" name="password" class="form-input" placeholder="Enter Your Password">
+            <button class="btn btn-outline-pri form-btn smooth-square-radius ">Sign-In</button>
+
+        </form>
+    </div>
+
+
+    <div class="spacing-dividing">
+        <h1> 2nd Form Input With error</h1>
+        <form class="form card-shadow">
+            <h4 class="error-message">Please enter right email and password</h4>
+            <input type="email" name="email-id" class="form-input form-input-error" placeholder="Enter Your Email">
+            <input type="password" name="password" class="form-input form-input-error"
+                placeholder="Enter Your Password">
+            <button class="btn form-btn smooth-square-radius ">Sign-In</button>
+
+        </form>
+    </div>
+    <div class="spacing-dividing">
+        <h1>Text Area</h1>
+        <div class="text-area flex-column card-shadow">
+             <textarea name="" cols="30" rows="10" class="smooth-square-radius">Enter your message</textarea>
+             <button class="btn "><i class="fas fa-paper-plane"></i> Submit text</button>
+        </div>
+    </div>
 </body>
 </html>
