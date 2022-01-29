@@ -78,7 +78,7 @@ body {
 
 /* Overlay text card  */
 .card-vertical-overlay-text {
-    background-image: url(../assets/mustang1960.jpg);
+    background-image: url(../assets/mustang-1976.jpg);
     background-size: cover;
     width: 35rem;
     height: 19.6rem;
@@ -96,7 +96,7 @@ body {
 
 /* Text overlay image with dismiss */
 .card-vertical-overlay-text__dismiss {
-    background-image: url(../assets/mustang1960.jpg);
+    background-image: url(../assets/mustang-1976.jpg);
     background-size: cover;
     width: 35rem;
     height: 19.6rem;
